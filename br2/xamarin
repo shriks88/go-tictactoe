@@ -1,0 +1,40 @@
+Xamarin.Forms
+Build native UIs for iOS, Android and Windows Phone
+from a single, shared C# codebase.
+
+>>>We designed an API that works exactly how C# developers expect. Xamarin.Forms pages represent single screens within an app. Pages contain layouts, buttons, labels, lists, and other common controls. Connect these controls to shared backend code and you get fully native iOS, Android, and Windows Phone apps built entirely with shared C#.
+
+>>>At runtime, each page and its controls are mapped to platform-specific native user interface elements; for example, a Xamarin.Forms Entry becomes a UITextView on iOS, an EditText on Android, and a TextBox on Windows Phone
+
+Decide page-by-page.
+Xamarin.Forms is great for forms-based screens, and you can mix Xamarin.Forms with the full power of Xamarin.iOS and Xamarin.Android in the same app. For example, use Xamarin.Forms for your login and settings screens, and Xamarin.iOS and Xamarin.Android for the rest of your app.
+
+Embed custom views anywhere.
+Not only are Xamarin.Forms pages mixable with custom screens, but you can embed custom views built directly against Xamarin.iOS and Xamarin.Android into Xamarin.Forms pages.
+
+Call platform APIs via shared services.
+Need platform-specific functionality within a Xamarin.Forms page, such as querying the accelerometer? We’ve included services that quickly and easily abstract platform-specific API calls to keep you writing as much shared code as possible.
+
+Extend Xamarin.Forms with custom controls.
+Define your own controls, layouts, pages and cells.
+Expose your own platform-specific controls in Xamarin.Forms pages.
+Subclass included controls and customize their behavior.
+
+
+Build pages entirely with XAML.
+Define views, layouts and bindings in a succinct markup language.
+Note: Xamarin.Forms is not compatible with pre-existing XAML visual designers.
+
+
+Architect with MVVM and data bindings.
+MVVM architecture for clean separation of UI and app logic.
+Two-way data bindings automatically sync data between controls and models.
+Mobile-optimized dependency injection with <10ms startup time.
+Messaging center for loosely-coupled messaging between app components.
+
+
+Weave captivating animations.
+Basic animations (e.g. rotate, fade, scale) which can be composed to build complex effects.
+Low-level animation API for building custom, replayable animations.
+All operations delegate to platform-specific animation APIs (e.g. CoreAnimation on iOS) for optimal performance.
+Animations are awaitable using async/await for developer-friendly sequencing.
