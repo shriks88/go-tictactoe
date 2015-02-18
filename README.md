@@ -1,5 +1,3 @@
-some change
-
 appengine-endpoints-tictactoe-go
 ====================================
 
