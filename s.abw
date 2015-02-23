@@ -1,1 +1,4 @@
-ppp
+pdate the value of application in app.
+-ID' in static/js/render.js and api.go to the respective client ID(s) you have registered in the APIs Console.
+Uyaml from go-endpoints to the app ID you have registered in the App Engine admin console and would like to use to host your instance of this sample.
+Run the application, and ensure it'
