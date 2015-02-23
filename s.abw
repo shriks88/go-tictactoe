@@ -1,1 +1,38 @@
-ppp
+﻿package tictactoe
+
+const (
+	TIME_LAYOUT = "Jan 2, 2006 15:04:05 AM"
+	SCORE_KIND  = "Score"
+)
+
+// Score is an entity to store scores that have been inserted by users.
+type Score struct {
+	key *datastore.Key
+
+package tictactoe
+
+import (
+	"time"
+
+	"appengine"
+	"appengine/datastore"
+	"appengine/user"
+)
+
+const (
+	TIME_LAYOUT = "Jan 2, 2006 15:04:05 AM"
+	SCORE_KIND  = "Score"
+)
+
+// Score is an entity to store scores that have been inserted by users.
+type Score struct {
+	key *datastore.Key
+
+	Outcome string    `datastore:"outcome"`
+	Played  time.Time `datastore:"played"`
+	Player  string    `datastore:"player"`
+}
+	Outcome string    `datastore:"outcome"`
+	Played  time.Time `datastore:"played"`
+	Player  string    `datastore:"player"`
+}
