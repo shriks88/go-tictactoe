@@ -1,24 +1,4 @@
-﻿<<<<<<< HEAD
-﻿package tictactoe
-
-import (
-	"time"
-
-	"appengine"
-	"appengin to store scores that have been inserted by users.
-type Score struct {
-	key *datastore.Key
-
-	Outcome string    `datastore:"outcome"`
-	Played  time.Time `datastore:"played"`
-	Player  string    `datastore:"player"`
-}
-=======
-ke sure to have the App Engine SDK for Go installed, version 1.8.0 or higher.
-Change 'YOUR-CLIENT-ID' in static/js/render.js and api.go to the respective client ID(s) you have registered in the APIs Console.
-Update the value of application in app.yaml from go-endpoints to the app ID you have registered in the App Engine admin console and would like to use to host your instance of this sample.
-Run the application, and ensure it's running by visiting your local server's admin console (by default localhost:8000.)
+﻿
+ke sure to have the nning by visiting your local server's admin console (by default localhost:8000.)
 Test your Endpoin
->>>>>>> 63681ef6940827d466357a5858b0bd1e2e861b0a
- App Engine admin console and would like to use to host your instance of this sample.
-Run the application, and ensure 
+
