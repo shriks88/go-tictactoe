@@ -1,3 +1,4 @@
+﻿<<<<<<< HEAD
 ﻿package tictactoe
 
 const (
@@ -36,3 +37,4 @@ type Score struct {
 	Played  time.Time `datastore:"played"`
 	Player  string    `datastore:"player"`
 }
+
